@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BFCI Instructor</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">jXc7ST8POtAADLYxGgUbeQxBMGHZdwbVn0IkSBB9</string>
+    <string name="back4app_client_key">t0lcjBccnuBHOIWxR0gyd3jQMSPQP92QLyWycJFs</string>
+    <string-array name="for_who">
+        <item>Student</item>
+        <item>Instructor</item>
+    </string-array>
+    <string-array name="semister">
+        <item>First Semester</item>
+        <item>Second Semester</item>
+    </string-array>
+    <string-array name="matrial">
+        <item>All</item>
+        <item>Network</item>
+        <item>DataBase</item>
+        <item>Gis</item>
+        <item>Cloud</item>
+    </string-array>
+</resources>

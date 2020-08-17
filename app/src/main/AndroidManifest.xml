@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.indrul.bfciinstructor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/loginpic"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StudentQuestionActivity"></activity>
+        <activity android:name=".profileActivity" />
+        <activity android:name=".Video_Details" />
+        <activity android:name=".LectureDetailsActivity" />
+        <activity android:name=".MatrialDetailsActivity" />
+        <activity android:name=".MatrialActivity" />
+        <activity android:name=".Announcement_Activity" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signup_Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

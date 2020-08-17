@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cournerd_background"
+    android:padding="10dp"
+    >
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/matrialname"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/textbox_background"
+        android:layout_margin="10dp"
+        android:elevation="15dp"
+        android:hint="Matrial name"
+        android:paddingStart="15dp"/>
+    <EditText
+        android:id="@+id/lecturevideo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/textbox_background"
+        android:layout_margin="10dp"
+        android:elevation="15dp"
+        android:hint="Lecture Video Link"
+        android:paddingStart="15dp"/>
+    <EditText
+        android:id="@+id/matrialimage"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/textbox_background"
+        android:layout_margin="10dp"
+        android:elevation="15dp"
+        android:hint="Matrial Image Link"
+        android:paddingStart="15dp"/>
+    <EditText
+        android:id="@+id/assignmentlink"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/textbox_background"
+        android:layout_margin="10dp"
+        android:elevation="15dp"
+        android:hint="Assignment link"
+        android:paddingStart="15dp"/>
+    <EditText
+        android:id="@+id/lectureLink"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/textbox_background"
+        android:layout_margin="10dp"
+        android:elevation="15dp"
+        android:hint="Lecture link"
+        android:paddingStart="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/semister"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:visibility="invisible"
+            />
+        <Button
+            android:id="@+id/send"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/cournerd_background"
+            android:backgroundTint="#58B6E2"
+            android:layout_margin="2dp"
+            android:text="Save"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:onClick="search"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

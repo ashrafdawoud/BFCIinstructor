@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:foreground="?attr/selectableItemBackground"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="12sp"
+        android:orientation="horizontal"
+        android:background="@drawable/subject_rounded_item"
+        android:id="@+id/subject"
+        android:elevation="12sp"
+       >
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/subject_rounded_item">
+            <ImageView
+                android:id="@+id/subject_image"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_margin="5dp"/>
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/rounded_corner"
+                />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/subject_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ashraf"
+                android:layout_weight="1"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="#fff"/>
+            <TextView
+                android:id="@+id/semestername"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ashraf"
+                android:textSize="18dp"
+                android:layout_weight="2"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
